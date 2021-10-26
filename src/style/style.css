@@ -1,0 +1,228 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --gilroy-bold: 'Gilroy-Bold';
+    --gilroy-Regular: 'Gilroy-Regular';
+    --gilroy-Medium: 'Gilroy-Medium';
+    --gilroy-SemiBold: 'Gilroy-SemiBold';
+    --gilroy-heavy: 'Gilroy-Heavy';
+    --gilroy-mediumItalic: 'Gilroy-MediumItalic';
+    --gilroy-extraBold: 'Gilroy-ExtraBold';
+    --bebasNeue-Regular: 'BebasNeue-Regular';
+    --bebasNeue-Light: 'BebasNeue-Light'; 
+    --white: #fff;
+    --purpleish-blue: #7b41f9;
+    --black: #232323;
+    --black-two: #383838;
+    --black-50: rgba(35, 35, 35, 0.5);
+    --white-two: #f4f4f4;
+}
+
+
+.container{
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+/* ----------HEADER START-------- */
+
+.header{
+    position: relative;
+    height: 758px;
+    background-color: var(--white-two);
+}
+.header__bg{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* NAV */
+
+.navbar{
+    padding-top: 61px;
+}
+
+.navbar-content{
+    display: flex;
+    
+    
+}
+
+.navbar-nav, .navbar-collapse{
+    display: flex;
+    align-items: center;
+    
+    
+  
+}
+.navbar-nav{
+    margin: 0px 107px 0px 96px;
+}
+
+.nav-link{     
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black);
+    font-family: var(--gilroy-bold);
+    padding-right: 30px;
+}
+
+.navbar-phone{
+    font-size: 22px;
+    font-family: var(--gilroy-extraBold);
+    line-height: 15px;
+    color: var(--black);
+    margin-left: 10px;
+}
+
+/* Header-content */
+.header-content{
+    position: relative;
+    
+
+}
+
+.header__content-info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.content__main-bg{
+    position: absolute;
+    right: 0;
+    top: 211px;
+      
+}
+.content__secondary-bg{
+    position: absolute;
+    right: 20px;
+    top: 460px;
+}
+
+.header__info-title {
+    text-transform: uppercase;
+    max-width: 385px;
+    width: 100%;
+    font-size: 67px;
+    line-height: 75px;
+    font-family: var(--bebasNeue-Regular);
+    color: var(--black);
+    margin-top: 100px;
+    position: relative;
+}
+.header__title-span{
+    font-family: var(--bebasNeue-Light); 
+}
+.header__info-description {
+    max-width: 350px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+    position: relative;
+    font-family: var(--gilroy-SemiBold);
+    color: var(--black);
+    text-align: left;
+    margin-bottom: 90px;
+    margin-top: 53px;
+    
+}
+.header__info-btn {
+    width: 285px;
+    padding: 28px 94px;
+    text-align: center;
+    color: var(--white);
+    background: var(--purpleish-blue);
+    font-size: 16px;
+    font-family: var(--gilroy-bold);
+    position: relative;
+    
+   
+}
+
+.header__info-right{
+   display: flex;
+   flex-direction: row;
+   
+}
+.header__right-circle{
+    position: relative;
+    background: url(../img/circle.png) no-repeat;
+    background-position: center;
+    background-color: var(--purpleish-blue);
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin-top: 178px;
+}
+
+.header__title-right{
+    position: absolute;
+    text-align: center;
+    line-height: 42px;
+    font-size: 16px;
+    font-family: var(--gilroy-bold);
+    padding: 19px 24px;
+    color: var(--white);   
+}
+
+.title__right-percent{
+    font-size: 40px;
+}
+
+
+.header__right-content{
+    position: relative;
+    background-color: var(--white);
+    width: 180px;
+    height: 155px;
+    margin-left: 151px;
+    margin-top: 107px;
+    
+}
+
+.header__right-title{
+    position: relative;
+    line-height: 32px;
+    font-size: 20px;
+    font-family: var(--gilroy-bold);
+    color: var(--black);
+    padding: 21px 70px 18px 20px;
+}
+
+.text-style-1{
+    font-size: 65px;
+}
+.text-style-2{
+    font-size: 39px;
+}
+
+.right-title-circle{
+    width: 13px;
+    height: 13px;
+    background-color: var(--purpleish-blue);
+    border-radius: 50px;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
+
+
+/* ----------HEADER END------------- */
+
+

@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../fonts/Gilroy/Gilroy-Bold.ttf');
+}
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('../fonts/Gilroy/Gilroy-Regular.ttf');
+}
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('../fonts/Gilroy/Gilroy-Medium.ttf');
+}
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('../fonts/Gilroy/Gilroy-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Gilroy-Heavy';
+    src: url('../fonts/Gilroy/Gilroy-Heavy.ttf');
+}
+@font-face {
+    font-family: 'Gilroy-MediumItalic';
+    src: url('../fonts/Gilroy/Gilroy-MediumItalic.ttf');
+}
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: url('../fonts/Gilroy/Gilroy-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url('../fonts/BebasNeue/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: 'BebasNeue-Light';
+    src: url('../fonts/BebasNeue/BebasNeue-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url('../fonts/fontAwesome/fa-brands-400.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url('../fonts/fontAwesome/fa-light-300.woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url('../fonts/fontAwesome/fa-regular-400.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url('../fonts/fontAwesome/fa-duotone-900.woff2');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url('../fonts/fontAwesome/fa-solid-900.woff2');
+    font-weight: 900;
+}
+
+
+.fa {
+    display: inline-block;
+    font-family: 'Font Awesome';
+    font-style: normal;
+}
+
