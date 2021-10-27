@@ -408,6 +408,7 @@
 .card-bg{
     position: absolute;
     left: 50%;
+    
 }
 
 .privilege-card::after{
@@ -481,7 +482,7 @@
 }
 
 .document-title::after{
-    top: 9%;
+    top: 8.7%;
 }
 
 
@@ -519,7 +520,7 @@
     font-size: 17px;
     font-family: var(--gilroy-extraBold);
     color: var(--black);
-    max-width: 136px;
+    max-width: 170px;
     width: 100%;
     text-align: left;
     margin-left: 55px;
@@ -535,7 +536,7 @@
 
 .document-bg-right{
     position: absolute;
-    right: 0;
+    right: -7%;
     top: -25%;
 }
 
@@ -544,4 +545,126 @@
     
     
 }
+
+
+
+
+/* --------------НАШИ ПАРТНЕРЫ----------------- */
+
+
+.partner-section{
+    padding-top: 98px;
+    position: relative;
+}
+.partner-bg{
+    position: absolute;
+}
+
+.partner-title{
+    max-width: 148px;
+    width: 100%;
+}
+.partner-title::after{
+    top: 10%;
+    left: 48.7%;
+}
+
+.partner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners-img{
+    margin-bottom: 43px;
+}
+
+
+
+
+/* ----------------ВАШИ ВОПРОСЫ ------------------- */
+
+.question-section{
+    position: relative;
+    background-color: var(--white-two);
+    padding-top: 80px;
+}
+.question-bg{
+    position: absolute;
+}
+
+.question-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question-title{
+    max-width: 290px;
+    width: 100%;
+}
+
+.question-content-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.question__list-item{
+    position: relative;
+    margin-bottom: 30px;
+    
+    
+}
+
+.question__list-title{
+    display: inline-block;
+    font-size: 17px;
+    font-family: var(--gilroy-bold);
+    text-align: left;
+    color: var(--black);
+    line-height: 50px;
+   
+    
+}
+
+.question__list-item::before{
+    content: '\f067';
+    width: 17px;
+    height: 17px;
+    color: var(--purpleish-blue);
+    font-weight: bold;
+    margin-right: 24px;
+    margin-left: 104px;
+    
+}
+
+
+
+
+.question__list-title::after{
+    content: "";
+    position: absolute;
+    border-bottom: 2px var(--purpleish-blue) dashed;
+    width: 1220px;
+    left: 0;
+    top: 65px;
+
+}
+
+.question__list-title:nth-last-child(5)::after{
+    display: block;
+}
+
+.last-child::after{
+    display: none;
+}
+
+
+.question-btn{
+    margin-top: 98px;
+    margin-bottom: 126px;
+}
+
 /* MAIN END */
