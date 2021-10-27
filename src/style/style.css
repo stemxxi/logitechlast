@@ -356,10 +356,192 @@
 
 .privilege-section{
     position: relative;
+    background-color: var(--white-two);
+    padding-top: 78px;
+    height: 915px;
+
+}
+
+.privilege-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.privilige-bg{
+    top: 80px;
 }
 
 .privilege-title{
     max-width: 415px;
     width: 100%;
+}
+.privilege-title::after{
+    top: 5%;
+}
+.privilege-description{
+    max-width: 485px;
+    width: 100%;
+}
+
+
+
+
+/* CARDS */
+
+.privilege-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-gap: 69px 89px;
+    
+}
+
+.privilege-card{
+    max-width: 339px;
+    width: 100%;
+    height: 206px;
+    position: relative;
+    text-align: left;
+}
+
+.card-bg{
+    position: absolute;
+    left: 50%;
+}
+
+.privilege-card::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 5px solid var(--purpleish-blue); 
+}
+.card-title{
+    font-size: 18px;
+    color: var(--black);
+    font-family: var(--gilroy-bold);
+    line-height: 26px;
+    padding-top: 30px;
+}
+
+.card-description{
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--black);
+    font-family: var(--gilroy-Medium);
+    padding-top: 18px;
+    padding-bottom: 29px;
+}
+.card-img{
+    background: url(../img/3-5.png) no-repeat;
+    background-position-x: right;
+    
+}
+
+
+
+
+
+
+/* --------------ЧТО ПОНАДОБИТСЯ---------------- */
+
+
+.document-section{
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 82px;
+}
+
+.document-bg{
+    position: absolute;
+    
+}
+
+.document-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.document-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.document-title{
+    max-width: 290px;
+    width: 100%;
+    
+}
+
+.document-description{
+    max-width: 605px;
+    width: 100%;
+}
+
+.document-title::after{
+    top: 9%;
+}
+
+
+/* DOCUMENT CARDS */
+
+.document-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px 48px;
+    margin-bottom: 97px;
+}
+
+.document-card{
+    max-width: 576px;
+    width: 100%;
+    height: 139px;
+    background-color: var(--white-two);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.document__img-bg{
+    position: relative;
+    right: 7%;
+}
+
+.document-bg-id{
+    position: absolute;
+    left: 7%;
+    
+}
+
+.document__card-title{
+    font-size: 17px;
+    font-family: var(--gilroy-extraBold);
+    color: var(--black);
+    max-width: 136px;
+    width: 100%;
+    text-align: left;
+    margin-left: 55px;
+}
+.document__card-title>p{
+    width: 190px;
+}
+
+.document__img-right{
+    position: absolute;
+    left: 52%;
+}
+
+.document-bg-right{
+    position: absolute;
+    right: 0;
+    top: -25%;
+}
+
+.document-btn{
+    padding: 28px 0px;
+    
+    
 }
 /* MAIN END */
