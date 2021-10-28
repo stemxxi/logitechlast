@@ -566,7 +566,7 @@
 }
 .partner-title::after{
     top: 10%;
-    left: 48.7%;
+    
 }
 
 .partner-content{
@@ -602,6 +602,10 @@
 .question-title{
     max-width: 290px;
     width: 100%;
+}
+
+.question-title::after{
+    top: 4%;
 }
 
 .question-content-info{
@@ -671,6 +675,7 @@
 /* ----------------НАШИ КЛИЕНТЫ ------------------- */
 
 
+
 .client-section{
     padding-top: 89px;
     position: relative;
@@ -686,11 +691,17 @@
     align-items: center;
 }
 
-.question-title{
+.client__main-title{
     max-width: 260px;
     width: 100%;
+    margin-bottom: 40px;
+   
 }
-      
+
+.client__main-title::after{
+    position: absolute;
+    top: 8%;
+}
 
 .swiper {
     width: 1200px;
@@ -731,6 +742,10 @@
 
 .client-description{
    margin: 0px 60px;
+   
+}
+.client-swiper{
+    margin-top: 98px;
 }
 
 
@@ -797,4 +812,117 @@
 }
 
 
+
+
+
+
+/* ------------------------СЕРТИФИКАТЫ----------------- */
+
+
+.certificate-section{
+    position: relative;
+    background-color: var(--white-two);
+    padding-top: 79px;
+}
+
+.certitificate__section-bg{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.certificate-bg{
+    position: absolute;
+    
+}
+
+.certificate-box{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 0px 30px;
+}
+
+.certificate-file{
+    max-width: 243px;
+    width: 100%;
+    height: 344px;
+    
+}
+
+.certificate__main-title{
+    max-width: 280px;
+    width: 100%;
+}
+
+.certificate__main-title::after{
+    top: 7%;
+}
+
+.certificate-content-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swiper-pagination-bullet{
+    width: 13px;
+    height: 13px;
+}
+
+
+.certificate-wrapper{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, 
+.swiper-pagination-bullets.swiper-pagination-horizontal, 
+.swiper-pagination-custom, 
+.swiper-pagination-fraction{
+    bottom: 121px;
+}
+
 /* MAIN END */
+
+
+
+
+/* FOOTER START */
+
+.footer{
+    background-color: var(--black);
+    padding-top: 59px;
+    padding-bottom: 52px;
+}
+
+
+.footer-title{
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    text-align: left;
+    font-family: var(--gilroy-heavy);
+    color: var(--white);
+}
+
+.footer-subtitle,
+.footer__sub-subtitle{
+    font-family: var(--gilroy-Regular);
+    font-size: 16px;
+    color: var(--white);
+    line-height: 44px;
+    text-align: left;
+}
+
+.footer-subtitle{
+    margin-top: 22px;
+}
+
+.footer__content-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* FOOTER END */
