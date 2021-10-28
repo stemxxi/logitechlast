@@ -653,9 +653,6 @@
 
 }
 
-.question__list-title:nth-last-child(5)::after{
-    display: block;
-}
 
 .last-child::after{
     display: none;
@@ -665,5 +662,139 @@
     margin-top: 98px;
     margin-bottom: 126px;
 }
+
+
+
+
+
+
+/* ----------------НАШИ КЛИЕНТЫ ------------------- */
+
+
+.client-section{
+    padding-top: 89px;
+    position: relative;
+}
+    
+.client-bg{
+    position: absolute;
+}
+
+.client__content-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question-title{
+    max-width: 260px;
+    width: 100%;
+}
+      
+
+.swiper {
+    width: 1200px;
+    height: 531px;
+}
+
+
+.client-title{
+    font-size: 16px;
+    text-align: left;
+    font-family: var(--gilroy-extraBold);
+    color: var(--black-two);
+    line-height: 31px;
+    margin-right: 5px;
+}
+
+.client__title-span{
+    font-family: var(--gilroy-Medium);
+}
+
+
+.swiper-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-top{
+    display: flex; 
+    margin-bottom: 68px;  
+}
+
+.client-img{
+    border-radius: 50%;
+    width: 87px;
+    height: 87px;
+}
+
+.client-description{
+   margin: 0px 60px;
+}
+
+
+.client__review-description{
+    width: 990px;
+    font-family: var(--gilroy-mediumItalic);
+    text-align: center;
+    line-height: 28px;
+    font-size: 16px;
+    color: var(--black-two);
+    position: relative;
+    z-index: 1;
+    
+}
+
+.client__review-bgf{
+    position: absolute;
+    bottom: 65%;
+}
+.client__review-bgb{
+    position: absolute;
+    right: 10%;
+    bottom: 48%;
+    
+}
+
+.client-name{
+    font-family: var(--gilroy-bold);
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.swiper-button-next{
+    right: 20px;
+    top: 40%;
+    color: var(--black-two);
+    cursor: initial;
+    border: block;
+}
+.swiper-button-next:focus,
+.swiper-button-prev:focus{
+    outline: none;
+}
+.swiper-button-next::after{
+    content: '\f178';
+    font-family: inherit;
+    font-size: 19px;
+    
+}
+.swiper-button-prev{
+    left: 20px;
+    top: 40%;
+    color: var(--black-two);
+    outline: none !important;
+    cursor: inherit;
+}
+
+.swiper-button-prev::after{
+    content: '\f177';
+    font-family: inherit;
+    font-size: 19px;
+    outline: none;
+}
+
 
 /* MAIN END */
