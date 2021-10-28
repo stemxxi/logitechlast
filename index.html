@@ -3,41 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width initial-scale=1.0" >
     <title>Logitech</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="src/style/style.css">
     <link rel="stylesheet" href="src/style/media.css">
+    <link rel="stylesheet" href="src/libs/bootstrap.min.css">
 </head>
 <body>
 
     <!-- HEADER -->
     
+    
     <header class="header">
         <img src="src/img/header_bg.png" alt="" class="header__bg">
         <div class="container">
             <nav class="navbar">
-                
                     <div class="navbar-content">
                         <a class="navbar-brand" href="#">
                             <img src="src/img/Logo.png" alt="">
                         </a>
-                        <button class="navbar-toggler">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                    
                         <div class="navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Объекты залога</a>
+                                    <a  class="nav-link" href="#pledge-section">Объекты залога</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Необходимые документы</a>
+                                    <a  class="nav-link" href="#document-section">Необходимые документы</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Калькулятор</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Отзывы</a>
+                                    <a class="nav-link" href="#client-section">Отзывы</a>
                                 </li>
                             </ul>
                             <img src="src/img/phone-call-1.png" alt="" class="navbar__phone-icon">
@@ -46,6 +46,47 @@
                     </div>
                 
             </nav>
+            <div class="hidden-navbar">
+                <nav class="navbar navbar-light bg-light fixed-top">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="src/img/Logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="src/img/Logo.png" alt=""></h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a data-goto=".pledge-section" class="nav-link" href="#">Объекты залога</a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-goto=".document-section" class="nav-link" href="#">Необходимые документы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Калькулятор</a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-goto=".client-section" class="nav-link" href="#">Отзывы</a>
+                            </li>
+                            
+                        </ul>
+                        <img src="src/img/phone-call-1.png" alt="" class="navbar__phone-icon">
+                            <a href="" class="navbar-phone fa ">+7 (495) 860-90-60</a>
+                        </div>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+            
+
+
+
             <div class="header-content">
                 <div class="header__content-bg">
                     <img src="src/img/header__content-bg.png" alt="" class="content__main-bg">
@@ -85,7 +126,7 @@
     <main class="main">
 
         <!------------------ ОБЪЕКТ ЗАЛОГА ----------------->
-        <section class="pledge-section">
+        <section class="pledge-section" id="pledge-section">
             <img src="src/img/объект залога.png" alt="" class="pledge-bg main-bg">
             <div class="container">
                 <div class="pledge-content">
@@ -139,7 +180,7 @@
         </section>
 
         <!------------------- ПРЕИМУЩЕСТВА ----------------->
-        <section class="privilege-section">
+        <section class="privilege-section" id="privilege-section">
             <img src="src/img/преимущества.png" alt="" class="privilige-bg main-bg">
             <div class="container">
                 <div class="privilege-content">
@@ -152,38 +193,38 @@
                 </div>
                 <div class="privilege-cards">
                     <div class="privilege-card">
-                        <img src="src/img/01.png" alt="" class="card-bg">
-                        <img src="src/img/discount-4.png" alt="" class="card-img">
+                        <img src="src/img/01.png" alt="" class="privilege__card-bg">
+                        <img src="src/img/discount-4.png" alt="" class="privilige__card-img">
                         <h2 class="card-title">Никаких скрытых комиссий</h2>
                         <p class="card-description">С другой стороны консультация с широким активом требуют от нас анализа</p>
                     </div>
                     <div class="privilege-card">
-                        <img src="src/img/02.png" alt="" class="card-bg">
-                        <img src="src/img/deal.png" alt="" class="card-img">
+                        <img src="src/img/02.png" alt="" class="privilege__card-bg">
+                        <img src="src/img/deal.png" alt="" class="privilige__card-img">
                         <h2 class="card-title">100% одобрение</h2>
                         <p class="card-description">С другой стороны консультация с широким активом требуют от нас анализа</p>
                     </div>
                     <div class="privilege-card">
-                        <img src="src/img/03.png" alt="" class="card-bg">
-                        <img src="src/img/contract.png" alt="" class="card-img">
+                        <img src="src/img/03.png" alt="" class="privilege__card-bg">
+                        <img src="src/img/contract.png" alt="" class="privilige__card-img">
                         <h2 class="card-title">Без переоформления собственности</h2>
                         <p class="card-description">С другой стороны консультация с широким активом требуют от нас анализа</p>
                     </div>
                     <div class="privilege-card">
-                        <img src="src/img/04.png" alt="" class="card-bg">
-                        <img src="src/img/to-do-list-2.png" alt="" class="card-img">
+                        <img src="src/img/04.png" alt="" class="privilege__card-bg">
+                        <img src="src/img/to-do-list-2.png" alt="" class="privilige__card-img">
                         <h2 class="card-title">С любой кредитной историей</h2>
                         <p class="card-description">С другой стороны консультация с широким активом требуют от нас анализа</p>
                     </div>
                     <div class="privilege-card">
-                        <img src="src/img/05.png" alt="" class="card-bg">
-                        <img src="src/img/quick.png" alt="" class="card-img">
+                        <img src="src/img/05.png" alt="" class="privilege__card-bg">
+                        <img src="src/img/quick.png" alt="" class="privilige__card-img">
                         <h2 class="card-title">Решение за 5 минут</h2>
                         <p class="card-description">С другой стороны консультация с широким активом требуют от нас анализа</p>
                     </div>
                     <div class="privilege-card">
-                        <img src="src/img/06.png" alt="" class="card-bg">
-                        <img src="src/img/money-1.png" alt="" class="card-img">
+                        <img src="src/img/06.png" alt="" class="privilege__card-bg">
+                        <img src="src/img/money-1.png" alt="" class="privilige__card-img">
                         <h2 class="card-title">Получение всей суммы за 1 день</h2>
                         <p class="card-description">С другой стороны консультация с широким активом требуют от нас анализа</p>
                     </div>
@@ -194,7 +235,7 @@
 
         <!------------------ ЧТО ПОНАДОБИТСЯ --------------->
 
-        <section class="document-section">
+        <section class="document-section" id="document-section">
             <img src="src/img/что понадобится.png" alt="" class="document-bg">
             <div class="container">
                 <div class="document-content">
@@ -230,7 +271,7 @@
 
         <!------------------ НАШИ ПАРТНЕРЫ ----------------->
 
-        <section class="partner-section">
+        <section class="partner-section" id="partner-section">
             <img src="src/img/наши патнеры.png" alt="" class="partner-bg">
             <div class="container">
                 <div class="partner-content">
@@ -246,7 +287,7 @@
 
 
         <!------------------ ВАШИ ВОПРОСЫ ----------------->
-        <section class="question-section">
+        <section class="question-section" id="question-section">
             <img src="src/img/ваши вопросы.png" alt="" class="question-bg">
             <div class="container">
                 <div class="question-content">
@@ -257,24 +298,20 @@
                         </h2>
                         <p class="question-description main-description">Если вы не нашли ответ на нужный вопрос - задайте его в форме ниже</p>
                     </div>
-                    <ul class="question-lists">
-                        <li class="question__list-item fa"> <span class="question__list-title">Как узнать максимальную сумму кредита, на которую можно рассчитывать?
+
+                    <ul class="list-group list-group-fl">
+                        <li class="list-group-item fa"><span class="question__list-title">Как узнать максимальную сумму кредита, на которую можно рассчитывать?
                         </span>
-                        </li>
-                        <li class="question__list-item fa"> <span class="question__list-title">У меня имеются просрочки. Мне одобрят?</span>
-                        </li>
-                        <li class="question__list-item fa"> <span class="question__list-title">Как узнать максимальную сумму кредита, на которую можно рассчитывать?</span>
-                        </li>
-                        <li class="question__list-item fa"> <span class="question__list-title">У меня имеются просрочки. Мне одобрят?</span>
-                        </li>
-                        <li class="question__list-item fa"> <span class="question__list-title">Как узнать максимальную сумму кредита, на которую можно рассчитывать?</span>
-                        </li>
-                        <li class="question__list-item fa"> <span class="question__list-title">Что делать, если у меня изменились обстоятельства и я не могу выплачивать заем,
-                            на которую можно рассчитывать?</span>
-                        </li>
-                        <li class="question__list-item fa"> <span class="question__list-title last-child">Как узнать максимальную сумму кредита, на которую можно рассчитывать?</span>
-                        </li>
-                    </ul>
+                        <li class="list-group-item fa"><span class="question__list-title">У меня имеются просрочки. Мне одобрят?</span></li>
+                        <li class="list-group-item fa"><span class="question__list-title">Как узнать максимальную сумму кредита, на которую можно рассчитывать?</span></li>
+                        <li class="list-group-item fa"><span class="question__list-title">У меня имеются просрочки. Мне одобрят?</span></li>
+                        <li class="list-group-item fa"><span class="question__list-title last-child">Как узнать максимальную сумму кредита, на которую можно рассчитывать?</span></li>
+
+                        <li class="list-group-item fa"><span class="question__list-title">Что делать, если у меня изменились обстоятельства и я не могу выплачивать заем,
+                            на которую можно рассчитывать?</span></li>
+
+                        <li class="list-group-item fa"><span class="question__list-title last-child">Как узнать максимальную сумму кредита, на которую можно рассчитывать?</span></li>
+                      </ul>
                     <a href="#" class="question-btn main-btn">Задать вопрос</a>
                 </div>
                 
@@ -286,7 +323,7 @@
 
         <!-------------------ОТЗЫВЫ КЛИЕНТЫ -------------------->
 
-        <section class="client-section">
+        <section class="client-section" id="client-section">
             <img src="src/img/отзывы клиентов.png" alt="" class="client-bg">
             <div class="container">
                 <div class="client-content">
@@ -388,7 +425,7 @@
 
        <!------------------------ СЕРТИФИКАТЫ ------------------>
 
-       <section class="certificate-section">
+       <section class="certificate-section" id="certificate-section">
            <img src="src/img/header_bg.png" alt="" class="certitificate__section-bg">
            <img src="src/img/документация.png" alt="" class="certificate-bg">
             <div class="certificate-content">
@@ -447,7 +484,15 @@
 
 
     </main>
+
+
+    <!-- MAIN END -->
     
+
+    <!-- FOOTER START -->
+
+<section class="footer-section">
+
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -463,19 +508,32 @@
                         <p class="footer__sub-subtitle">БЦ “Барклая плаза”, метро “Профсоюзная”</p>
                     </div>
                     <div class="footer-description">
-                        <h2 class="footer-title">+7 (495) 860-90-60</h2>
-                        <p class="footer-subtitle">moneyvkredit@kredit.ru</p>
-                        <p class="footer__sub-subtitle">Суббота: 12:00 - 18:00</p>
+                        <a href="#" class="footer-title">
+                            <i class="uil uil-phone footer-icon"></i>
+                            +7 (495) 860-90-60</a>
+                        <a href="#" class="footer-subtitle">moneyvkredit@kredit.ru</a>
+                        <div class="footer-socials">
+                            <a href="#" class="whats_up fa"></a>
+                            <a href="#" class="telegram fa"></a>
+                        </div>
                     </div>
+                </div>
+                <div class="footer-copy">
+                    <p class="footer-rights">ООО «ДЕНЬГИ В КРЕДИТ» / ИНН – 79879879867687 / ОГРН – 766547654874</p>
+                    <p class="footer__copy-description">Равным образом укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития. Равным образом реализация намеченных плановых заданий представляет собой интересный эксперимент проверки систем массового участия. Значимость этих проблем настолько очевидна, что консультация с широким активом играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач. Повседневная практика показывает, что новая модель организационной деятельности в значительной степени обуславливает создание дальнейших направлений развития. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач. Равным образом начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации форм развития.
+                    </p>
+                    <p class="footer__copy-descriptions">С другой стороны консультация с широким активом требуют от нас анализа дальнейших направлений развития. Задача организации, в особенности же рамки и место обучения кадров влечет за собой процесс внедрения и модернизации соответствующий условий активизации. Таким образом сложившаяся структура организации требуют от нас анализа соответствующий условий активизации. Равным образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации дальнейших направлений развития. Разнообразный и богатый опыт новая модель организационной деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития.</p>
                 </div>
             </div>
         </div>
     </footer>
 
+</section>
+
 
     
 
-    
+    <script src="src/libs/bootstrap.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="src/js/main.js"></script>
   
