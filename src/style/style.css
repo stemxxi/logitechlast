@@ -614,6 +614,10 @@ a {
     margin-bottom: 43px;
 }
 
+.partners-img{
+    width: 100%;
+}
+
 
 
 
@@ -738,7 +742,8 @@ a {
 }
 
 .swiper {
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     height: 531px;
 }
 
@@ -784,7 +789,8 @@ a {
 
 
 .client__review-description{
-    width: 990px;
+    max-width: 990px;
+    width: 100%;
     font-family: var(--gilroy-mediumItalic);
     text-align: center;
     line-height: 28px;
@@ -924,9 +930,7 @@ a {
 
 /* FOOTER START */
 
-.footer-section{
-    padding-bottom: 100px;
-}
+
 
 
 .footer{
@@ -984,7 +988,7 @@ a {
 .footer-description{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     
 }
 

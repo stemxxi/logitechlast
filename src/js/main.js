@@ -37,7 +37,7 @@ if(navLinks.length > 0) {
     const navLink = e.target;
     if(navLink.dataset.goto && document.querySelector(navLink.dataset.goto)){
       const gotoBlock = document.querySelector(navLink.dataset.goto);
-      const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('footer').offsetHeight;
+      const gotoBlockValue = gotoBlock.getBoundingClientRect().bottom + pageYOffset - document.querySelector('header').offsetHeight;
 
       window.scrollTo({
         top: gotoBlockValue,
