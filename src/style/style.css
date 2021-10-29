@@ -270,10 +270,12 @@ a {
     position: relative;
     padding-bottom: 70px;
     
+    
 }
 .main-bg{
     position: absolute;
     top: 0;
+    
 }
 
 .pledge-content{
@@ -488,6 +490,7 @@ a {
 
 .document-bg{
     position: absolute;
+    padding-top: 80px;
     
 }
 
@@ -593,6 +596,7 @@ a {
 }
 .partner-bg{
     position: absolute;
+    padding-top: 80px;
 }
 
 .partner-title{
@@ -630,6 +634,7 @@ a {
 }
 .question-bg{
     position: absolute;
+    padding-top: 80px;
 }
 
 .question-content{
@@ -721,6 +726,7 @@ a {
     
 .client-bg{
     position: absolute;
+    padding-top: 80px;
 }
 
 .client__content-info{
@@ -873,6 +879,7 @@ a {
 
 .certificate-bg{
     position: absolute;
+    padding-top: 80px;
     
 }
 
@@ -1027,4 +1034,6 @@ a {
 
 
 /* FOOTER END */
+
+
 
