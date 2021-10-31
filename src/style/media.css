@@ -743,6 +743,9 @@
     .input-wrapper input[type="number"]{
         width: 90%;
     }
+    .list-group-item::before{
+        display: none !important;
+    }
 }
 
 
@@ -836,7 +839,7 @@
     }
 
     .header__info-btn{
-        top: 90% !important ;
+        top: 75% !important ;
     }
     .main-btn{
         width: 210px;
@@ -1120,7 +1123,9 @@
     .right-span{
         margin-left: 0px !important;
     }
-    
+    .list-group-item::before{
+        display: none !important;
+    }
 }
 
 
@@ -1186,6 +1191,7 @@
     }
     .privilege-card{
         margin-bottom: 50px;
+        max-width: 241px;
     }
     .document-cards{
         grid-template-columns: repeat(1, 1fr);
@@ -1506,5 +1512,417 @@
     }
     .main-span{
         font-size: 13px;
+    }
+    .list-group-item::before{
+        display: none !important;
+    }
+}
+
+/* 
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 280px) and (max-width: 319px){
+    
+    .main-description{
+        font-size: 13px !important;
+    }
+
+    .pc-navbar{
+        display: none !important;
+    }
+    .hidden-navbar{
+        display: block;
+    }
+    .offcanvas-header,
+    .navbar{
+        background: var(--white-two);
+        opacity: 0.9;
+    }
+    .offcanvas, .offcanvas-end, .show{
+
+        width: 80% !important;
+        background: var(--white-two) !important;
+    }
+    .navbar-nav,.justify-content-end {
+        justify-content: flex-start !important;
+        flex-direction: column !important;
+    }
+    .header-contact{
+        display: flex;
+        position: relative;
+        left: 3%;
+        align-items: center;
+    }
+    .nav-link{
+        padding-right: 0px !important;
+        font-size: 15px;
+    }
+    .navbar-phone{
+        font-size: 17px !important;
+        margin-left: 8px !important;
+    }  
+    .pledge-list{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-gap: 10px !important;
+
+    }
+    .pledge-items{
+        margin-right: 0px;
+    }
+    .main-title::after{
+        left: 47.5%;
+    }
+    .privilege-title::after{
+        top: 2%;
+    }
+    .privilege-cards{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .privilege-card{
+        margin-bottom: 50px;
+        max-width: 241px;
+    }
+    .document-cards{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 48px;
+    }
+    .document-card{
+        max-width: 453px;
+    }
+    .document__card-title{
+        margin-left: 15px;
+        font-size: 10px;
+    }
+    .document__img-right {
+        left: 54%;
+        width: 40%;
+    }
+    .document__img-bg {
+        left: 5%;
+        width: 43%;
+    }
+    .document-bg-right {
+        right: 0%;
+        top: -6%;
+        width: 43%;
+    }
+    .document-bg-id {
+        width: 31%;
+    }
+    .main-btn{
+        width: 160px;
+        padding: 17px 0;
+        font-size: 12px;
+    }
+    .pledge-title {
+        width: 340px;
+    }
+
+    .main-title{
+        font-size: 35px;
+        line-height: 39px;
+    }
+    .main-title::after{
+        left: 43.5%;
+    }
+
+    
+    .list-group-item::before{
+        display: none;
+    }
+    
+    .document-title::after {
+        top: 6.7%;
+    }
+    .question__list-title{
+        font-size: 10px;
+        line-height: 31px;
+    }
+    .content__left-title{
+        font-size: 34px;
+        line-height: 35px;
+        margin-top: 34px;
+    }
+    .text-style-1 {
+        font-size: 48px;
+    }
+    .text-style-2 {
+        font-size: 32px;
+    }
+    .list-group-item:nth-of-type(6){
+        max-width: 795px !important;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .client__review-description{
+        max-width: 214px;
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .header__info-btn{
+        padding: 21px 22px;
+        top: 24%;
+    }
+    .client__review-bgf{
+        display: none;
+    }
+    .client-title {
+        font-size: 10px;
+        line-height: 12px;
+        margin-right: -23px;
+    }
+    .client__review-bgb{
+        display: none;
+    }
+    .client-description{
+        width: 58%;
+        margin-bottom: 22px;
+        margin-top: 22px;
+      
+    }
+    
+    .certificate-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 28px 30px;
+        margin-top: 71px;
+    }
+    .slider-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    .certificate-file{
+        max-width: 97px;
+        height: 145px;
+    }
+    .header__info-description{
+        display: none;
+            
+    }
+    .content__main-bg{
+        display: none;
+    }
+    .header__info-btn{
+        top: 59%;
+    }
+
+    .header__right-content{
+       display: none !important;
+    }
+    .header__right-title{
+        line-height: 17px;
+        font-size: 17px;
+    }
+    .header__right-circle{
+        display: none;
+    }
+    .content__secondary-bg {
+        display: none;
+    }
+    .content__main-bg{
+        top: 93%;
+        width: 100%;
+    }
+    .main-bg{
+        width: 40% !important;
+        position: absolute;
+        
+    }
+    .card-description,
+    .card-title{
+        font-size: 12px;
+        /* margin-top: 0px; */
+        
+        line-height: 17px;
+    }
+    .privilege__card-bg{
+        width: 28%;
+        left: 67%;
+    }
+
+    .footer__content-info{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 40vh;
+        grid-gap: 10px 10px;
+
+    }
+
+    .footer-subtitle,
+    .footer__sub-subtitle{
+        margin-top: 0px;
+        font-size: 12px;
+        line-height: 36px;
+    }
+    .footer-title{
+        font-size: 13px;
+    }
+    .footer__copy-description{
+        font-size: 10px;
+        line-height: 15px;
+
+    }
+    .header__info-right{
+        display: block;
+    }
+    .footer__copy-descriptions{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .navbar__phone-icon{
+        width: 14%;
+    }
+    .navbar-phone{
+        font-size: 9px;
+    }
+    .nav__logo{
+        width: 61%;
+    }
+     /* ВАШ платеж */
+
+     .content__main-bg{
+        top: 83px%;
+    }
+
+    .input{
+        width: 100%;
+    }
+    
+    .input-wrapper input[type="number"]{
+        width: 100%;
+    }
+    .title{
+        font-size: 13px;
+    }
+    input[type='range'] {
+        width: 70%;
+        border-radius: 10px;
+        height: 0px;
+        
+    }
+
+    .credit-btn {
+        padding: 27px 3px 27px;
+        margin-left: 0px;
+
+        font-size: 13px;
+    }
+    .value {
+        font-size: 18px;
+    }
+    .title-sum {
+        font-size: 13px;
+    }
+    .cost-input-contact{
+        margin-top: 60px !important;
+    }
+    .nav__logo{
+        width: 80% !important;
+    }
+
+    .input-wrapper{
+        padding: 10px;
+    }
+
+    .final-results {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 23px;
+    }
+
+    .final-result-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+    .calculator-content-body-right{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    input[type=range]::-webkit-slider-thumb {
+        background: var(--purpleish-blue);
+        border: 2px solid cyan;
+        border-radius: 50%;
+        cursor: pointer;
+        width:25px;
+        height: 25px;
+        -webkit-appearance: none;
+        
+    }
+    .main-bg{
+        width: 30%;
+    }
+    
+    .main-title::after{
+        left: 41.5%;
+    }
+
+
+    ul{
+        padding-left: 0px !important;
+    }
+    .phone{
+        padding: 13px 30px 13px;
+        margin-bottom: 40px;
+    }
+    .cost-input-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .calculator-body{
+        flex-direction: column;
+    }
+    .content-span{
+        justify-content: space-between;
+    }
+
+    .right-span-t{
+        margin-left: 0px !important;
+    }
+    .right-span{
+        margin-left: 0px !important;
+    }
+    .main-span{
+        font-size: 13px;
+    }
+    .navbar-brand-img{
+        width: 60% !important;
     }
 }

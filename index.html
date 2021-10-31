@@ -23,7 +23,7 @@
                 <nav class="navbar">
                         <div class="navbar-content">
                             <a class="navbar-brand" href="#">
-                                <img src="src/img/Logo.png" alt="">
+                                <img src="src/img/Logo.png" class="navbar-brand-img" alt="">
                             </a>
                         
                             <div class="navbar-collapse" id="navbarNav">
@@ -35,7 +35,7 @@
                                         <a  class="nav-link" href="#document-section">Необходимые документы</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Калькулятор</a>
+                                        <a class="nav-link" href="#cost-section">Калькулятор</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#client-section">Отзывы</a>
@@ -52,7 +52,7 @@
                 <nav class="navbar navbar-light fixed-top">
                     <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src="src/img/Logo.png"  alt="">
+                        <img src="src/img/Logo.png" class="navbar-brand-img" alt="">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
@@ -65,16 +65,16 @@
                         <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a data-goto=".pledge-section" class="nav-link" href="#">Объекты залога</a>
+                                <a  class="nav-link" href="#pledge-section">Объекты залога</a>
                             </li>
                             <li class="nav-item">
-                                <a data-goto=".document-section" class="nav-link" href="#">Необходимые документы</a>
+                                <a  class="nav-link" href="#document-section">Необходимые документы</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Калькулятор</a>
+                                <a class="nav-link" href="#cost-section">Калькулятор</a>
                             </li>
                             <li class="nav-item">
-                                <a data-goto=".client-section" class="nav-link" href="#">Отзывы</a>
+                                <a  class="nav-link" href="#client-section">Отзывы</a>
                             </li>
                             
                         </ul>
@@ -178,7 +178,7 @@
                             </div>
                         
                     </ul>
-                    <a href="#" class="pledge-btn main-btn">Рассчитать кредит</a>
+                    <a href="#cost-section" class="pledge-btn main-btn">Рассчитать кредит</a>
                 </div>
             </div>
         </section>
@@ -268,14 +268,14 @@
                         </div>
                         
                     </div>
-                    <a href="#" class="document-btn main-btn">Рассчитать кредит</a>
+                    <a href="#cost-section" class="document-btn main-btn">Рассчитать кредит</a>
                 </div>
             </div>
         </section>
 
         <!----------------------- ВАШ ПЛАТЕЖ  ---------------------------->
 
-        <section class="cost-section">
+        <section class="cost-section" id="cost-section">
             <img src="src/img/ВАШ ПЛАТЕЖ.png" alt="" class="document-bg main-bg">
             <div class="container">
                 <div class="cost-content">

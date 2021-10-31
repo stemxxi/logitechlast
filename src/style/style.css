@@ -734,6 +734,9 @@ input::-webkit-inner-spin-button {
 }
 
 
+.main-btn:hover{
+    color: var(--white);
+}
 
 
 .input-wrapper input[type="number"] {
