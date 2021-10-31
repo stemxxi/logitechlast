@@ -38,6 +38,7 @@ a {
 
 
 
+
 .container{
     max-width: 1220px;
     width: 100%;
@@ -322,6 +323,7 @@ a {
     text-align: center;  
     margin-top: 44px;
     margin-bottom: 70px;
+    font-weight: 600;
 }
 .pledge-description{
     max-width: 590px;
@@ -585,6 +587,223 @@ a {
 }
 
 
+
+
+
+
+/* -----------------ВАШ ПЛАТЕЖ -------------- */
+
+
+.cost-section{
+    position: relative;
+    background-color: var(--white);
+    padding-top: 78px;
+    background: url(../img/header_bg.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+}
+
+
+
+
+
+.cost-title{
+    max-width: 334px;
+    width: 100%;
+}
+
+.cost-title::after{
+    top: 5%;
+}
+
+.cost-description{
+    margin-bottom: 108px;
+}
+.cost-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input[type='range'] {
+    width: 100%;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.left-span{
+    margin-bottom: 15px;
+}
+
+input[type=range] {
+  -webkit-appearance: none; 
+  width: 100%; 
+}
+ 
+input[type=range]::-moz-range-track {
+  -webkit-appearance: none;
+ 
+}
+ 
+input[type=range]:focus {
+  outline: none; 
+  
+}
+ 
+input[type='range'] {
+    width: 479px;
+    border-radius: 10px;
+    height: 4px;
+    border: solid var(--purpleish-blue);
+    background-color: var(--purpleish-blue);
+    margin-right: 81px;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+   ;
+}
+
+.calculator-body{
+    display: flex;
+    justify-content: center;
+    /* background-color: var(--white); */
+}
+.input-wrapper{
+    background-color: var(--white);
+    padding: 42px 79px 48px 81px;
+    background-blend-mode: normal;
+
+}
+
+
+
+  input[type=range]::-webkit-slider-thumb {
+    background: var(--purpleish-blue);
+    border: 2px solid cyan;
+    border-radius: 50%;
+    cursor: pointer;
+    width:30px;
+    height: 30px;
+    -webkit-appearance: none;
+    
+  }
+
+
+
+
+.title{
+    font-size: 23px;
+    font-family: var(--gilroy-extraBold);
+    color: var(--black);
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 29px;
+}
+
+.content-span{
+    display: flex;
+
+}
+
+.right-span-t{
+    margin-left: 342px;
+}
+.right-span{
+    margin-left: 440px;
+}
+
+.main-span{
+    font-size: 16px;
+    font-family: var(--gilroy-Medium);
+    font-weight: 600;
+}
+
+
+
+
+.input-wrapper input[type="number"] {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: var(--gilroy-bold);
+    color: var(--black);
+    border: none;
+    background: var(--white-two);
+    width: 86%;
+    border-radius: 10px;
+    padding: 9px 13px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+
+.phone{
+    padding: 28px 73px 26px;
+    background-color: var(--white);
+    border: none;
+    outline: none;
+    height: 70px !important;
+
+}
+
+
+.final-result-item {
+    margin-bottom: 35px;
+    margin-right: 98px;
+}
+
+.final-results{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.final-result-item:last-child {
+    margin-bottom: 0;
+}
+
+
+.calculator-content-body-right{
+    padding-top: 57px;
+    padding-bottom: 108px;
+    display: flex;
+    align-items: center;
+}
+
+.title-sum{
+    font-size: 17px;
+    font-family: var(--gilroy-Medium);
+    color: var(--black-two);
+    font-weight: 600;
+}
+
+.value{
+    font-size: 36px;
+    color: var(--black);
+    font-family: var(--gilroy-heavy);
+}
+
+.credit-btn{
+    background-color: var(--purpleish-blue);
+    padding: 28px 52px 26px;
+    margin-left: 22px;
+}
 
 
 /* --------------НАШИ ПАРТНЕРЫ----------------- */

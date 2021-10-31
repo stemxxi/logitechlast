@@ -273,6 +273,84 @@
             </div>
         </section>
 
+        <!----------------------- ВАШ ПЛАТЕЖ  ---------------------------->
+
+        <section class="cost-section">
+            <img src="src/img/ВАШ ПЛАТЕЖ.png" alt="" class="document-bg main-bg">
+            <div class="container">
+                <div class="cost-content">
+                    <div class="cost-info">
+                        <h2 class="cost-title main-title">
+                            рассчитайте
+                            <span class="main-subtitle">ежемесячный платеж</span>
+                        </h2>
+                        <p class="cost-description main-description">Рассчитайте ежемесячный платеж и получите решение в течение 15 минут</p>
+                    </div>
+                </div>
+                <div class="flex-wrapper">
+                    <div class="calculator-content">
+                       
+                        <div class="calculator-content-body">
+                            <div class="calculator-content-body-left">
+                                <div class="calculator-body">
+                                    <div class="input-wrapper">
+                                        <div class="title">Стоимость недвижимости (в рублях)</div>
+                                        <div class="input">
+                                            <input type="number" id="total-cost" value="0"  disabled>
+                                            <div class="content-span">
+                                                <span class="left-span main-span">100 000</span>
+                                                <span class="right-span-t main-span">5 000 000</span>
+                                            </div>
+                                        </div>
+                                        <div class="input">
+                                            <input type="range" min="100000" max="5000000" step="100000"   id="total-cost-range" value="0" class="input-range" d>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <div class="title">Срок кредита (в месяцах)</div>
+                                        <div class="input">
+                                            <input type="number" id="credit-term" value="0" disabled>
+                                            <div class="content-span">
+                                                <span class="left-span main-span">12</span>
+                                                <span class="right-span main-span">240</span>
+                                            </div>
+                                           
+                                        </div>
+                                        <div class="input">
+                                            <input type="range" min="12" max="240" id="credit-term-range" value="0" class="input-range">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="calculator-content-body-right">
+                                <div class="final-results">
+                                    <div class="final-result-item">
+                                        <div class="value" id="monthly-payment">8791 руб.</div>
+                                        <div class="title-sum">Ежемесячный платеж</div>
+                                       
+                                    </div>
+                                    <div class="final-result-item">
+                                        <div class="value">5.5 %</div>
+                                        <div class="title-sum">Ставка по кредиту</div>
+                                       
+                                    </div>
+                                    <!-- <input type="text" class="phone" name="phone" placeholder="+7 (999) 999-99-99" > -->
+                                    
+                                </div>
+                                <div class="cost-input-contact">
+                                    <input type="text" class="phone" name="phone" placeholder="+7 (999) 999-99-99" >
+                                    <a href="#" class="credit-btn main-btn">Получить решение</a>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
         <!------------------ НАШИ ПАРТНЕРЫ ----------------->
 
         <section class="partner-section" id="partner-section">
