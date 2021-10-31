@@ -1155,6 +1155,25 @@ input::-webkit-inner-spin-button {
 /* MAIN END */
 
 
+.pledge-section,
+.document-section,
+.partner-section,
+.client-section{
+    background: url(../img/4-svg.png) no-repeat;
+    width: 100%;
+    background-position-y: 50%;
+    background-position-x: 102%;
+
+}
+.privilege-section,
+.cost-section,
+.certificate-section{
+    background: url(../img/4-svg.png) no-repeat;
+    width: 100%;
+    background-position-y: 50%;
+    background-position-x: -26%;
+
+}
 
 
 /* FOOTER START */
@@ -1256,6 +1275,5 @@ input::-webkit-inner-spin-button {
 
 
 /* FOOTER END */
-
 
 
