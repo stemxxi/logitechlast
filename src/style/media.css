@@ -531,7 +531,7 @@
         margin-left: 0px !important;
     }
     .accordion-body{
-        width: 202%;
+        
         padding: 0px !important;
         
     }
@@ -1328,6 +1328,45 @@
     .list-group-item::before{
         display: none !important;
     }
+    .accordion-body{
+        padding: 0px !important;
+        font-size: 11px;
+    }
+
+    .navbar-nav{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .header__right-circle{
+        margin-top: 315px;
+        top: unset !important;
+        margin-left: -55px;
+    }
+    .header__info-btn,
+    .header__info-description{
+        z-index: 1;
+    }
+
+    .header__right-content{
+        z-index: 1;
+        margin-top: -358px;
+    }
+    .header__info-description{
+        background: var(--white);
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: 600;
+    }
+    .headermain-bg {
+        width: 100%;
+        margin-top: 262px;
+        margin-left: -359px;
+    }
+
+    .credit-btn{
+        padding: 27px 9px 24px !important;
+    }
 }
 
 
@@ -1350,7 +1389,7 @@
     }
     .offcanvas, .offcanvas-end, .show{
 
-        width: 80% !important;
+        
         background: var(--white-two) !important;
     }
     .navbar-nav,.justify-content-end {
@@ -1720,6 +1759,45 @@
     }
     .headermain-bg{
         display: none;
+    }
+    .accordion-body{
+        padding: 0px !important;
+        font-size: 11px;
+    }
+
+    .navbar-nav{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .header__right-circle{
+        margin-top: 315px;
+        top: unset !important;
+        margin-left: -55px;
+    }
+    .header__info-btn,
+    .header__info-description{
+        z-index: 1;
+    }
+
+    .header__right-content{
+        z-index: 1;
+        margin-top: -358px;
+    }
+    .header__info-description{
+        background: var(--white);
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: 600;
+    }
+    .headermain-bg {
+        width: 100%;
+        margin-top: 262px;
+        margin-left: -359px;
+    }
+
+    .credit-btn{
+        padding: 27px 9px 24px !important;
     }
 }
 
