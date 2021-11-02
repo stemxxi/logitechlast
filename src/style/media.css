@@ -315,7 +315,7 @@
     }
     .offcanvas, .offcanvas-end, .show{
 
-        width: 50% !important;
+      
         background: var(--white-two) !important;
     }
     .navbar-nav,.justify-content-end {
