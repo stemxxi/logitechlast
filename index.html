@@ -81,7 +81,6 @@
                             <li class="nav-item">
                                 <a  class="nav-link" href="#client-section">Отзывы</a>
                             </li>
-                            
                         </ul>
                         <div class="header-contact">
                             <img src="src/img/phone-call-1.png" alt="" class="navbar__phone-icon">
@@ -97,10 +96,7 @@
 
 
             <div class="header-content">
-                <div class="header__content-bg">
-                    <img src="src/img/header__content-bg.png" alt="" class="content__main-bg">
-                    <img src="src/img/header-money.png" alt="" class="content__secondary-bg">
-                </div>
+                
                 <div class="header__content-info">
                     <div class="header__content-left">
                         <h2 class="content__left-title">кредит за 2 часа <span class="content__left-subtitle">под залог недвижимости</span></h2>
@@ -116,6 +112,9 @@
                                 <span class="text-style-1">9</span>
                                 <span class="text-style-2">лет</span> на рынке</h2>
                             <span class="right-title-circle"></span>
+                        </div>
+                        <div class="headermain-bg">
+                            
                         </div>
                     </div>
                 </div>
@@ -306,27 +305,27 @@
                                         <div class="title">Стоимость недвижимости (в рублях)</div>
                                         <div class="input">
                                             <input type="number" id="total-cost" value="0"  disabled>
+
+                                        </div>
+                                        <div class="input">
+                                            <input type="range" min="100000" max="5000000" step="100000"   id="total-cost-range" value="0" class="input-range">
                                             <div class="content-span">
                                                 <span class="left-span main-span">100 000</span>
                                                 <span class="right-span-t main-span">5 000 000</span>
                                             </div>
-                                        </div>
-                                        <div class="input">
-                                            <input type="range" min="100000" max="5000000" step="100000"   id="total-cost-range" value="0" class="input-range" d>
                                         </div>
                                     </div>
                                     <div class="input-wrapper">
                                         <div class="title">Срок кредита (в месяцах)</div>
                                         <div class="input">
                                             <input type="number" id="credit-term" value="0" disabled>
+                                        </div>
+                                        <div class="input">
+                                            <input type="range" min="12" max="240" id="credit-term-range" value="0" class="input-range">
                                             <div class="content-span">
                                                 <span class="left-span main-span">12</span>
                                                 <span class="right-span main-span">240</span>
                                             </div>
-                                           
-                                        </div>
-                                        <div class="input">
-                                            <input type="range" min="12" max="240" id="credit-term-range" value="0" class="input-range">
                                         </div>
                                     </div>
                                 </div>
@@ -348,7 +347,7 @@
                                     
                                 </div>
                                 <div class="cost-input-contact">
-                                    <input type="text" class="phone" name="phone" placeholder="+7 (999) 999-99-99" >
+                                    <input type="text" class="phone" placeholder="+7 (999) 999-99-99" >
                                     <a href="#" class="credit-btn main-btn" id="show-login">Получить решение</a>
                                 </div>
                             </div>
@@ -390,21 +389,83 @@
                         <p class="question-description main-description">Если вы не нашли ответ на нужный вопрос - задайте его в форме ниже</p>
                     </div>
 
-                    <ul class="list-group list-group-fl">
-                        <li class="list-group-item fa"><span class="question__list-title">Как узнать максимальную сумму кредита, на которую можно рассчитывать?
-                        </span>
-                        <li class="list-group-item fa"><span class="question__list-title">У меня имеются просрочки. Мне одобрят?</span></li>
-                        <li class="list-group-item fa"><span class="question__list-title">Как узнать максимальную сумму кредита, на которую можно рассчитывать?</span></li>
-                        <li class="list-group-item fa"><span class="question__list-title">У меня имеются просрочки. Мне одобрят?</span></li>
-                        <li class="list-group-item fa"><span class="question__list-title last-child">Как узнать максимальную сумму кредита, на которую можно рассчитывать?</span></li>
-
-                        <li class="list-group-item fa"><span class="question__list-title">Что делать, если у меня изменились обстоятельства и я не могу выплачивать заем,
-                            на которую можно рассчитывать?</span></li>
-
-                        <li class="list-group-item fa"><span class="question__list-title last-child">Как узнать максимальную сумму кредита, на которую можно рассчитывать?</span></li>
-                      </ul>
+                    <div class="accordion accordion-flush question-accordion" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed list-group-item fa" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <span class="question__list-title">Как узнать максимальную сумму кредита, на которую можно рассчитывать?</span>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, animi hic, iusto incidunt optio repellendus numquam ullam ut, eius repudiandae est. Delectus perspiciatis, modi molestias illum nobis excepturi voluptatibus consectetur non dolore eligendi temporibus facilis in tempore quae. Suscipit quaerat ad quam dolorum explicabo similique debitis? Corporis eos fugit earum!</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed list-group-item fa" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                <span class="question__list-title">У меня имеются просрочки. Мне одобрят?</span>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, animi hic, iusto incidunt optio repellendus numquam ullam ut, eius repudiandae est. Delectus perspiciatis, modi molestias illum nobis excepturi voluptatibus consectetur non dolore eligendi temporibus facilis in tempore quae. Suscipit quaerat ad quam dolorum explicabo similique debitis? Corporis eos fugit earum!</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed list-group-item fa" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                <span class="question__list-title">У меня имеются просрочки. Мне одобрят?</span>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quaerat laudantium, praesentium omnis reiciendis facere quia aperiam enim minus cupiditate magnam accusantium architecto consectetur aliquam illum recusandae odio pariatur fuga molestiae accusamus ea! Aut voluptate eligendi deserunt eveniet quia nam vel amet at ipsa eius sapiente numquam, fuga, tempore placeat.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingFour">
+                            <b class="accordion-button collapsed list-group-item fa" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                <span class="question__list-title">У меня имеются просрочки. Мне одобрят?</span>
+                            </b>
+                          </h2>
+                          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum debitis quasi, maiores deserunt natus laboriosam praesentium obcaecati iure rerum, a consectetur harum molestiae aut voluptatum, facere dignissimos odit? Sit quidem, dolorem explicabo doloribus natus dicta earum illum impedit eligendi, vel commodi magni laudantium recusandae! Officia numquam beatae tempora nesciunt nulla.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed list-group-item fa"  data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                <span class="question__list-title">У меня имеются просрочки. Мне одобрят?</span>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, animi hic, iusto incidunt optio repellendus numquam ullam ut, eius repudiandae est. Delectus perspiciatis, modi molestias illum nobis excepturi voluptatibus consectetur non dolore eligendi temporibus facilis in tempore quae. Suscipit quaerat ad quam dolorum explicabo similique debitis? Corporis eos fugit earum!</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingSix">
+                            <button class="accordion-button collapsed list-group-item fa" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                <span class="question__list-title">Что делать, если у меня изменились обстоятельства и я не могу выплачивать заем,
+                                    на которую можно рассчитывать?</span>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, animi hic, iusto incidunt optio repellendus numquam ullam ut, eius repudiandae est. Delectus perspiciatis, modi molestias illum nobis excepturi voluptatibus consectetur non dolore eligendi temporibus facilis in tempore quae. Suscipit quaerat ad quam dolorum explicabo similique debitis? Corporis eos fugit earum!</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingSeven">
+                            <button class="accordion-button collapsed list-group-item fa" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                                <span class="question__list-title">У меня имеются просрочки. Мне одобрят?</span>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, animi hic, iusto incidunt optio repellendus numquam ullam ut, eius repudiandae est. Delectus perspiciatis, modi molestias illum nobis excepturi voluptatibus consectetur non dolore eligendi temporibus facilis in tempore quae. Suscipit quaerat ad quam dolorum explicabo similique debitis? Corporis eos fugit earum!</div>
+                          </div>
+                        </div>
+                        
+                    </div>
                     <a href="#" class="question-btn main-btn">Задать вопрос</a>
                 </div>
+                
                 
             </div>
         </section>

@@ -164,3 +164,10 @@ const calculation = (totalCost = 0, creditTerm = 12) => {
 
 
 
+
+totalCostRange.oninput = function () {
+  console.log(this.value);
+  totalCost.style.marginLeft = this.value  - '2px';
+  
+}
+
